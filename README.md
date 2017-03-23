@@ -2,7 +2,8 @@
 
 By the end of this article you will be able to:
 
-- Give an account of modern web applications
+- Give a high level description of modern web applications
+- Describe why JavaScript is uniquely relevant to web development
 
 ## Modern Web Applications
 
@@ -47,3 +48,30 @@ For a long time, and to some degree this still holds true, JavaScript was viewed
 These days JavaScript is used extensively (though by no means uniquely) as a server side language as well as for standalone desktop applications, and even *native* programs that run inside devices like smartphones and tablets.
 
 Given its ubiquity in the web development landscape, its ability to give programmers access to programming on the full application stack, and its relatively easy (at first) learning curve, JavaScript is an excellent choice as a first language for deep study as a prospective web developer.
+
+## JavaScript Programs and JavaScript Functions
+
+Think about a function as a mini program that we can provide information to inform how it runs. The use of functions involves 2 main steps, which must happen **in order**:
+
+1) Define the function, including what kinds of information users can give it to affect how it runs.
+2) Use the function, giving it the kinds of information it was defined to receive, in order to affect how it runs.
+
+Regarding step 1, we can either define functions ourselves, or use functions that others have already defined. More on defining our own functions later.
+
+Regarding step 2, we can use functions between 0 and many times. Depending on how the function was defined, we can provide it with different information each time we run it, in order to use it in different ways. Using a function is also called *running* a function, *calling* a function or *invoking* a function.
+
+The way to call a function in JavaScript is to give its name, followed by a pair of parenthesis `()`. Inside the parenthesis, we provide the information that the function expects to receive, each specific bit of information separated by a comma. Each of these pieces of "information" is called an *argument*.
+
+### Using the Built-in Function `console.log`
+
+Wherever JavaScript code can be run, a *console* is available to develpers where they can print information, be it exploratory or about errors, regarding what is happening in their programs.
+
+One way that developers can log information to the console is by using a *function* called `console.log` that has already been defined for them. `console.log` takes any number of arguments, and prints each of them to the console, separated by a space.
+
+```
+console.log('By passing in this statment to console.log, it will be printed to the console.')
+```
+
+Notice that the statement we pass to `console.log` is wrapped in quotes. The JavaScript language states that any characters we wish to use as text must be surrounded by either single or double quotes. These characters are called *strings*. Any characters not surrounded in quotes are understood by JavaScript to be placeholder labels for values that we have already created (more on this later).
+
+:star: Use `console.log` three separate times, using it to pass in your first name, then your middle name, then your last name.
