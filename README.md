@@ -1,9 +1,12 @@
 # Learn to Code - JavaScript and Web Development Basics
 
-By the end of this article you will be able to:
+By the end of this lesson you will be able to:
 
 - Give a high level description of modern web applications
 - Describe why JavaScript is uniquely relevant to web development
+- Be able to speak about JavaScript functions
+- Be able to use some built-in JavaScript functions
+- Be able to define and use your own functions
 
 ## Modern Web Applications
 
@@ -49,7 +52,7 @@ These days JavaScript is used extensively (though by no means uniquely) as a ser
 
 Given its ubiquity in the web development landscape, its ability to give programmers access to programming on the full application stack, and its relatively easy (at first) learning curve, JavaScript is an excellent choice as a first language for deep study as a prospective web developer.
 
-## JavaScript Programs and JavaScript Functions
+## A Brief Intro to JavaScript Functions
 
 Think about a function as a mini program that we can provide information to inform how it runs. The use of functions involves 2 main steps, which must happen **in order**:
 
@@ -62,16 +65,4 @@ Regarding step 2, we can use functions between 0 and many times. Depending on ho
 
 The way to call a function in JavaScript is to give its name, followed by a pair of parenthesis `()`. Inside the parenthesis, we provide the information that the function expects to receive, each specific bit of information separated by a comma. Each of these pieces of "information" is called an *argument*.
 
-### Using the Built-in Function `console.log`
-
-Wherever JavaScript code can be run, a *console* is available to develpers where they can print information, be it exploratory or about errors, regarding what is happening in their programs.
-
-One way that developers can log information to the console is by using a *function* called `console.log` that has already been defined for them. `console.log` takes any number of arguments, and prints each of them to the console, separated by a space.
-
-```
-console.log('By passing in this statment to console.log, it will be printed to the console.')
-```
-
-Notice that the statement we pass to `console.log` is wrapped in quotes. The JavaScript language states that any characters we wish to use as text must be surrounded by either single or double quotes. These characters are called *strings*. Any characters not surrounded in quotes are understood by JavaScript to be placeholder labels for values that we have already created (more on this later).
-
-:star: Use `console.log` three separate times, using it to pass in your first name, then your middle name, then your last name.
+Let's do some coding! [Click here to go to a shared JavaScript coding environment](https://repl.it/G97W).
